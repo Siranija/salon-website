@@ -1,0 +1,115 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fca4c1;
+    
+   
+}
+
+h2 {
+    color:black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 15px 15px;
+}
+
+/* Login form styling */
+
+
+.login-form {
+    width: 500px;
+    height: 350px;
+    margin: 100px auto;
+    padding: 20px;
+   justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin-top: 0;
+    background-color: rgb(0,0,0,0.5);
+    display: flex;
+    border: 1px solid black;
+    box-shadow: inset -5px -5px rgb(0,0,0,0.5);
+    margin-top: 200px;
+}
+
+.login-form input {
+    width: 300px;
+
+    padding: 15px 15px;
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: rgb(255,197,211,0.5);
+    font-family: 'poppins',sans-serif;
+    margin-top: 30px;
+}
+
+.login-form button {
+    width: 100px;
+    padding: 10px;
+    background-color: #f48fb1;
+    text-align: center;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    
+    margin-top: 50px;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+    
+}
+
+.login-form .error {
+    color: rgb(253, 118, 224);
+    font-size: 14px;
+}
+
+/* Dashboard styling */
+.dashboard {
+    margin: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #c9302c;
+}
